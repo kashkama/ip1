@@ -1,0 +1,41 @@
+   body {
+       background-color: #070606;
+   }
+   
+   .row {
+       margin-right: -5px;
+       margin-left: -5px;
+   }
+   
+   .navbar-inverse .navbar-link:hover {
+       color: orange;
+   }
+   
+   .navbar-text navbar-right {
+       color: #faa303;
+       margin-right: 0;
+   }
+   /*endnavigation*/
+   
+   .intro {
+       background-image: url(../img/intro.jpg);
+       background-size: 100%;
+       background-repeat: no-repeat;
+       height: auto;
+   }
+   
+   .quote {
+       float: left;
+       font-size: 32px;
+       color: #ffffff;
+       font-style: italic;
+   }
+   
+   #copyright {
+       padding-top: 80px;
+   }
+   
+   .copyright {
+       color: #ffa500;
+   }
+   /*endintro*/

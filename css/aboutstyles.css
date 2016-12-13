@@ -1,0 +1,179 @@
+body {
+    background-color: #2a2a2a;
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+..navbar-inverse .navbar-link:hover {
+    color: orange;
+}
+
+.know-me-container {
+    background-color: #0f0e0e;
+}
+
+.know-me {
+    background-image: url(../img/knowme.jpg);
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.para {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    color: #cae4fc;
+}
+
+
+/*endknowme*/
+
+.hobbies {
+    margin-top: 10px;
+    height: 100%;
+}
+
+.hobbies-container {
+    background-color: #0f0e0e;
+    height: 1500px;
+}
+
+.chess {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.chess-image {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-chess {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.basketball {
+    background-size: 100%;
+    width: 150px;
+    height: auto;
+    ;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.basketball-image {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.text-basketball {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.anime {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.anime-image {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-anime {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.coding {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.coding-image {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-coding {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.drawing {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.drawing-image {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-drawing {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.hiking {
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.hiking-image {
+    background-size: 100%;
+    width: 150px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-hiking {
+    color: #cae4fc;
+    text-align: center;
+}
+
+.copyright {
+    color: #ffa500;
+    margin-top: 700px;
+}

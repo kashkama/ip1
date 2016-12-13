@@ -1,0 +1,33 @@
+body {
+    background-color: #2a2a2a;
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.navbar-inverse .navbar-link:hover {
+    color: orange;
+}
+
+.telephone {
+    font-size: 30px;
+    color: #cae4fc;
+}
+
+.email {
+    font-size: 30px;
+    color: #cae4fc;
+}
+
+.depscription {
+    color: #ffa500;
+}
+.social-buttons {
+  align-content: center;
+  margin-top: 200px;
+}
+.copyright {
+    color: #ffa500;
+}
