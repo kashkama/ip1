@@ -1,0 +1,12 @@
+{
+  "name": "ip1",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/kashkama/ip1.git",
+  "author": "kashkama <owen.kamau2014@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
