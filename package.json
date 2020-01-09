@@ -5,6 +5,9 @@
   "repository": "https://github.com/kashkama/ip1.git",
   "author": "kashkama <owen.kamau2014@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "devDependencies": {
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
