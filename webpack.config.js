@@ -25,6 +25,23 @@ module.exports = {
 				  presets: ['@babel/preset-env']
 			  }
 		  }
+	  }, {
+		//   appy rule for .sass, .scss or .css
+		test: /\.(sa|sc|c)ss$/,
+		use: [
+			{
+				loader: 'css-loader',
+			},
+			{
+				loader: 'postcss-loader'
+			},
+			{
+				loader: 'sass-loader',
+				option: {
+					implementation: require('sass')
+				}
+			}
+		]
 	  }],
   },
   // Default mode for Webpack is production.
