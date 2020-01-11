@@ -1,6 +1,12 @@
 @import 'global';
 
+
+::placeholder {
+	color: gray;
+}
+
 body {
-	background-color: $initialBckgroundClr;
+	// background-color: $initialBckgroundClr;
+	background-image: linear-gradient(red, blue);
 	width: 100%;
 }
