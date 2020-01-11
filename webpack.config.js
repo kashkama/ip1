@@ -86,7 +86,6 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: 'bundle.css',
 		}),
-		require('autoprefixer')
 	],
 	// Default mode for Webpack is production.
 	// Depending on mode Webpack will apply different things
