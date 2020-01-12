@@ -1,5 +1,5 @@
+@import 'mediaqueries';
 @import 'global';
-
 
 ::placeholder {
 	color: gray;
@@ -9,4 +9,14 @@ body {
 	// background-color: $initialBckgroundClr;
 	background-image: linear-gradient(red, blue);
 	width: 100%;
+}
+
+header {
+	width: 50%;
+	background: red;
+	@include minw(640) {
+		width: 100%;
+		height: 3em;
+		background: $initialBckgroundClr;
+	}
 }
