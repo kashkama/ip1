@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"repository": "https://github.com/kashkama/ip1.git",
-	"author": "kashkama <owen.kamau2014@gmail.com>",
+	"author": "kashkama <owen.dev01@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"build": "webpack --config webpack.config.js"
