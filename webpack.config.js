@@ -8,6 +8,9 @@ module.exports = {
 	// Path to your entry point. From this file Webpack will begin his work
 	entry: './src/js/index.js',
 
+	//watch files and recompile whenever they change
+	watch: true,
+
 	// Path and filename of your result bundle.
 	// Webpack will bundle all JavaScript into this file
 	output: {
@@ -91,5 +94,5 @@ module.exports = {
 	// Depending on mode Webpack will apply different things
 	// on final bundle. For now we don't need production's JavaScript
 	// minifying and other thing so let's set mode to development
-	mode: 'production',
+	mode: 'development',
 };

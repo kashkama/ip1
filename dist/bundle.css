@@ -1,1 +1,16 @@
-::-webkit-input-placeholder{color:gray}::-moz-placeholder{color:gray}:-ms-input-placeholder{color:gray}::-ms-input-placeholder{color:gray}::placeholder{color:gray}body{background-image:-webkit-gradient(linear, left top, left bottom, from(red), to(blue));background-image:linear-gradient(red, blue);width:100%}
+::-moz-placeholder {
+  color: gray;
+}
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
+}
+
+body {
+  background-image: linear-gradient(red, blue);
+  width: 100%;
+}
