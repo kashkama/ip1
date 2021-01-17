@@ -1,0 +1,10 @@
+// mobile first
+@mixin minw($point) {
+    @if $point == 320 {
+        @media(min-width: 20em) {@content;}
+    }@else if $point == 640 {
+        @media(min-width: 40em) {@content;}
+    }@else if $point == 768 {
+        @media(min-width: 47.5em) {@content;}
+    }
+}

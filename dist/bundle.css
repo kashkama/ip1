@@ -11,6 +11,15 @@
 }
 
 body {
-  background-image: linear-gradient(red, blue);
+  background-color: white;
   width: 100%;
+}
+
+header {
+  width: 50%;
+}
+@media (min-width: 40em) {
+  header {
+    width: 100%;
+  }
 }
